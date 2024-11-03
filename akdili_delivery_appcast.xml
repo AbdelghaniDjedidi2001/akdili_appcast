@@ -1,0 +1,22 @@
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+   <channel>
+      <title>Software Updates Feed</title>
+
+      <!-- First Version - 1.0.0 -->
+      <item>
+         <title>Version 1.0.0</title>
+         <description>Initial release of the application.</description>
+         <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+         <enclosure url="https://example.com/downloads/app_v1.0.0.zip" sparkle:version="1.0.0" length="100000" type="application/octet-stream" />
+      </item>
+
+      <!-- New Version - 1.1.0 -->
+      <item>
+         <title>Version 1.1.0</title>
+         <description>New features and improvements in version 1.1.0.</description>
+         <pubDate>Tue, 03 Nov 2024 10:00:00 GMT</pubDate>
+         <enclosure url="https://example.com/downloads/app_v1.1.0.zip" sparkle:version="1.1.0" length="120000" type="application/octet-stream" />
+         <sparkle:minimumSystemVersion>1.0.0</sparkle:minimumSystemVersion>
+      </item>
+   </channel>
+</rss>
