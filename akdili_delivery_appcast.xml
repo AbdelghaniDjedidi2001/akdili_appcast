@@ -3,17 +3,17 @@
   <channel>
     <title>For unit test only</title>
     <item>
-        <title>Version 1.0</title>
-        <description>desc Версия</description>
+        <title>Version 1.0.0</title>
+        <description>Initial release of the application.</description>
         <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
         <enclosure url="http://localhost:1337/Sparkle_Test_App.zip" sparkle:version="2.0" />
         <sparkle:tags> <sparkle:criticalUpdate /> </sparkle:tags> 
     </item>
-
+<!-- 
     <item>
         <title>Version 1.1</title>
         <sparkle:version>1.1.0</sparkle:version>
         <sparkle:maximumSystemVersion>1.0.0</sparkle:maximumSystemVersion>
-    </item>
+    </item> -->
   </channel>
 </rss>
