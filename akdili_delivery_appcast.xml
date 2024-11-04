@@ -7,7 +7,7 @@
         <description>اول نسخة</description>
         <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
         <sparkle:version>1.0.0</sparkle:version>
-        <sparkle:maximumSystemVersion>1.0.0</sparkle:maximumSystemVersion>
+        <sparkle:maximumSystemVersion>1.1.0</sparkle:maximumSystemVersion>
     </item>
     <item>
         <title>Version 1.1.0</title>
