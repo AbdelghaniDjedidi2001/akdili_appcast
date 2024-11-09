@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>For unit test only</title>
+    <title>For Unit Test Only</title>
+    <link>https://yourapp.com/updates</link>
+    <description>Update feed for testing purposes</description>
+    
     <item>
-        <title>Version 1.0.0</title>
-        <description>اول نسخة</description>
-        <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
-        <sparkle:maximumSystemVersion>1.1.0</sparkle:maximumSystemVersion>
+      <title>Version 1.0.0</title>
+      <description>النسخة الأولى</description>
+      <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
+      <sparkle:releaseNotesLink>https://yourapp.com/release_notes/1.0.0</sparkle:releaseNotesLink>
+      <sparkle:version>1.0.0</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <enclosure 
+        url="https://yourapp.com/downloads/MyApp_v1.0.0.zip" 
+        sparkle:version="1.0.0"
+        sparkle:shortVersionString="1.0.0"
+        length="12345"
+        type="application/zip" />
     </item>
+
     <item>
-        <title>Version 1.1.0</title>
-        <description> نسخة</description>
-        <pubDate>Sat, 26 Jul 2014 15:20:11 +0000</pubDate>
-        <sparkle:maximumSystemVersion>1.1.0</sparkle:maximumSystemVersion>
+      <title>Version 1.1.0</title>
+      <description>الإصدار الجديد</description>
+      <pubDate>Sun, 27 Jul 2014 16:30:11 +0000</pubDate>
+      <sparkle:releaseNotesLink>https://yourapp.com/release_notes/1.1.0</sparkle:releaseNotesLink>
+      <sparkle:version>1.1.0</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <enclosure 
+        url="https://yourapp.com/downloads/MyApp_v1.1.0.zip" 
+        sparkle:version="1.1.0"
+        sparkle:shortVersionString="1.1.0"
+        length="67890"
+        type="application/zip" />
+      <sparkle:maximumSystemVersion>1.1.0</sparkle:maximumSystemVersion>
     </item>
   </channel>
 </rss>
